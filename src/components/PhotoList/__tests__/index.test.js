@@ -12,7 +12,7 @@ describe('Photolist is rendering', () => {
   });
 
   it('matches snapshot', () => {
-    const { asFragment } = render(<PhotoList  />)
+    const { asFragment } = render(<PhotoList/>)
     expect(asFragment()).toMatchSnapshot()
   });
 });
